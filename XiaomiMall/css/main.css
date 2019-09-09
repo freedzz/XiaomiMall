@@ -1,0 +1,213 @@
+/* 手机区域 */
+body{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(245, 245, 245);
+	color:#333;
+}
+.container{
+	width: 1226px;
+	height: auto;
+	margin: 0 auto;
+}
+.container .phoneContentImg{
+	width: 1226px;
+	height: 120px;
+}
+.container .phoneContentImg img{
+	width: 100%;
+	height: 100%;
+}
+.container .phoneContent{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+.container .phoneContent .phoneContentTit{
+	width: 1226px;
+	height: auto;
+	font-size: 22px;
+}
+.container .phoneContent .phoneContentTit h2{
+	font-size: 22px;
+	line-height: 58px;
+	display: inline-block;
+}
+.container .phoneContent .phoneContentTit .phoneContentTitRight{
+	float: right;
+	font-size: 16px;
+	line-height: 58px;
+	display: flex;
+	font-weight: normal;
+}
+.container .phoneContent .phoneContentTit .phoneContentTitRight img{
+	width: 22px;
+	height: 22px;
+	margin-top: 18px;
+	margin-left: 5px;
+}
+.phoneContentMain{
+	display: flex;
+}
+.phoneContentMain .phoneContentMainLeft{
+	width: 234px;
+	height: 614px;
+}
+.phoneContentMain .phoneContentMainLeft img{
+	width: 100%;
+	height: 100%;
+}
+
+.phoneContentMain .phoneContentMainRight{
+	direction: flex;
+	flex-wrap: wrap;
+	width: 992px;
+}
+/* 消除LI之间的空格 */
+.phoneContentMain .phoneContentMainRight ul{
+	font-size: 0px;
+}
+.phoneContentMain .phoneContentMainRight ul li{
+	width: 234px;
+	height: 280px;
+	margin-bottom: 14px;
+	margin-left: 14px;
+	padding-top: 20px;
+	font-family:"Helvetica Neue", "Helvetica";
+	background-color: white;
+	display: inline-block;
+	float: left;
+}
+.phoneContentMain .phoneContentMainRight ul li img{
+	width: 160px;
+	height: 160px;
+	margin-left: 37px;
+	margin-bottom: 18px;
+}
+.phoneContentMain .phoneContentMainRight ul li h4{
+	text-align: center;
+	font-size: 14px;
+	line-height: 21px;
+	
+}
+.phoneCartBottom .phoneSmallTit{
+	display: block;
+	width: 234px;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	color: #b0b0b0;
+}
+.phoneCartBottom  .phoneCartPice{
+	width: 234px;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	margin-top: 10px;
+}
+.phoneCartBottom  .phoneCartPice span{
+	width: auto;
+	display: inline-block;
+	color: #ff6700;
+}
+.phoneCartBottom  .phoneCartPice i{
+	display: inline-block;
+	color: #b0b0b0;
+	text-decoration: line-through;
+}
+
+
+
+/* 视频区域 */
+.phoneContentTit .phoneContentTitRight h3:hover{
+	color: orangered;
+}
+
+
+.videoContent .videoContentMin{
+	width: 100%;
+	height: auto;
+		
+}
+.videoContent .videoContentMin ul{
+	font-size: 0px;
+}
+.videoContent .videoContentMin ul li:first-child{
+	margin-left: 0px;
+}
+.videoContent .videoContentMin ul li{
+	width: 296px;
+	height: 285px;
+	background-color: white;
+	margin-bottom: 18px;
+	margin-left: 14px;
+	display: inline-block;
+}
+.videoContent .videoContentMin ul li .videoCartTop{
+	width: 296px;
+	height: 180px;
+}
+.videoContent .videoContentMin ul li .videoCartTop img{
+	width: 100%;
+	height:100%;
+}
+.videoCartTop{
+	position: relative;
+}
+.videoCartTop .videoIcom{
+	    position: absolute;
+	    left: 20px;
+	    bottom: 10px;
+	    width: 32px;
+	    height: 20px;
+	    border: 2px solid #fff;
+	    border-radius: 12px;
+	    background-color: #424242;
+	    background-color: rgba(0,0,0,.6);
+	    color: #fff;
+	    -webkit-transition: all .2s;
+	    transition: all .2s;
+	    overflow: hidden;
+		cursor: pointer;
+}
+.videoCartTop .videoIcom:hover{
+	background-color: orangered;
+	border: 2px solid orangered;
+}
+.videoIcom .iconfont-play{
+	cursor: pointer;
+	text-align: center;
+	font-weight: 400;
+	list-style-type: none;
+	height: 13px;
+	width: 10px;
+	position: relative;
+}
+.videoIcom .iconfont-play img{
+	height: 13px;
+	width: 10px;
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	background-color: rgba(0,0,0,0.1);
+}
+
+
+.videoCartBottom{
+	width: 100%;
+}
+.videoCartBottom h4{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 6px;
+	margin-top: 28px;
+	font-size: 14px;
+}
+.videoCartBottom .videoSmallTit{
+	display: block;
+	width: 296px;
+	text-align: center;
+	font-size: 12px;
+	color: #b0b0b0
+}
+

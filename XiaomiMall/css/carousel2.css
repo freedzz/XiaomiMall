@@ -1,0 +1,334 @@
+/*通用css样式*/
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.xs-box {
+	height: 398px;
+	width: 1226px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+img {
+	border: 0;
+}
+
+ul {
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+li {
+	display: list-item;
+}
+
+h3 {
+	display: block;
+	font-size: 1.17em;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+/*通用css样式*/
+
+div.home-flashsale {
+	position: relative;
+	background-color: #F5F5F5;
+}
+
+/*闪购头部*/
+div.home-flashsale .home-flashsale-head {
+	height: 58px;
+	width: 100%;
+	background-color: transparent;
+}
+
+.title {
+	margin: 0;
+	line-height: 58px;
+	width: 100%;
+	height: 100%;
+	font-family: "STKaiti";
+	font-size: 22px;
+}
+
+/*闪购头部*/
+
+/********闪购轮播图**********/
+
+/*闪购时间*/
+div.home-flashsale .home-flashsale-box {
+	width: 1226px;
+	height: 340px;
+	overflow: hidden;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-box-time {
+	border-top-color: #e53935;
+	height: 300px;
+	padding-top: 39px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	background: #f1eded;
+	text-align: center;
+	width: 234px;
+	float: left;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-box-time .round {
+	font-size: 21px;
+	color: #ef3a3b;
+	padding-top: 15px;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-box-time img {
+	margin: 25px auto;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-box-time .desc {
+	color: rgba(0, 0, 0, .54);
+	font-size: 15px;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-box-time .time {
+	width: 168px;
+	margin: 28px auto 0;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-box-time .time span {
+	width: 46px;
+	height: 46px;
+	background: #605751;
+	color: #fff;
+	font-size: 24px;
+	line-height: 46px;
+	float: left;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-box-time .time i {
+	width: 15px;
+	float: left;
+	height: 46px;
+	line-height: 46px;
+	color: #605751;
+	font-size: 28px;
+	font-style: normal;
+}
+
+/*闪购时间*/
+
+/*轮播商品*/
+div.home-flashsale .home-flashsale-box .home-flashsale-Carousel {
+	float: left;
+	width: 978px;
+	height: 340px;
+	margin-left: 14px;
+	min-height: 1px;
+	list-style: none;
+	padding: 0;
+	z-index: 1;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-Carousel .container {
+	position: relative;
+	overflow: hidden;
+	height: 340px;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-Carousel div .swiper-wrapper {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 340px;
+	font-size: 0;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-Carousel div .swiper-wrapper li {
+	text-align: center;
+	background: #fff;
+	list-style: none;
+	width: 234px;
+	margin-right: 14px;
+	height: 100%;
+	display: inline-block;
+}
+
+/*轮播商品定位*/
+
+/*第一组*/
+div.home-flashsale .home-flashsale-box .home-flashsale-Carousel .container .box1 {
+	width: 978px;
+	height: 340px;
+	position: absolute;
+}
+
+/*第2-8组*/
+div.home-flashsale .home-flashsale-box .home-flashsale-Carousel .container .box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8 {
+	width: 978px;
+	height: 340px;
+	position: absolute;
+	left: 978px;
+}
+
+/*轮播商品文字*/
+div.home-flashsale .home-flashsale-box .home-flashsale-Carousel ul li a .content .char {
+	margin: 0 20px 3px;
+	font-size: 14px;
+	font-weight: 400;
+	text-overflow: ellipsis;
+	color: #212121;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-Carousel ul li a .content .desc {
+	height: 18px;
+	margin: 0 20px 12px;
+	font-size: 12px;
+	text-overflow: ellipsis;
+	color: #b0b0b0;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-Carousel ul li a .content .price {
+	margin: 0;
+	color: #ff6709;
+	font-size: 12px;
+}
+
+/*轮播商品文字*/
+
+/*轮播商品定位*/
+
+div.home-flashsale .home-flashsale-box .home-flashsale-Carousel ul li a {
+	display: block;
+	height: 300px;
+	padding-top: 39px;
+	text-decoration: none;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-Carousel ul li a .content .thumb {
+	display: block;
+	width: 160px;
+	margin: 0 auto 22px;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-Carousel ul li a .content .thumb img {
+	width: 160px;
+	height: 160px
+}
+
+/*轮播商品*/
+
+/*轮播控制器*/
+div.home-flashsale .home-flashsale-box .home-flashsale-controls {
+	position: absolute;
+	right: 0;
+	top: 24px;
+	width: 75px;
+	height: 25px;
+	background-color: transparent;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-controls a:first-child {
+	border-left: 1px solid darkgray;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-controls a {
+	display: block;
+	width: 36px;
+	height: 24px;
+	float: left;
+	text-align: center;
+	border-top: 1px solid darkgray;
+	border-right: 1px solid darkgray;
+	border-bottom: 1px solid darkgray;
+	color: darkgray;
+	padding-top: 2px;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-controls a i {
+	font-size: 20px;
+}
+
+div.home-flashsale .home-flashsale-box .home-flashsale-controls a:hover {
+	color: orange;
+}
+
+/*轮播控制器*/
+
+/********闪购轮播图**********/
+/*闪购轮播图*/
+/*侧边栏*/
+div.small-nav {
+	position: fixed;
+	right: 0;
+	bottom: 40px;
+	width: 27px;
+	height: 267px;
+	background-color: none;
+	left: 50%;
+	right: auto;
+	margin-left: 614px;
+	bottom: 40px;
+}
+
+div.small-nav a {
+	display: block;
+	width: 27px;
+	height: 42px;
+	text-align: center;
+	border-bottom: 1px solid #F5F5F5;
+	text-decoration: none;
+	color: darkgray;
+	background-color: white;
+	position: relative;
+}
+.small-nav a img{
+	top: 50%;
+	left: 50%;
+	margin-top: -10px;
+	margin-left: -10px;
+	display: block;
+	position: absolute;
+}
+
+
+div.small-nav a:last-child {
+	/* border-top: 15px solid none; */
+	top: 15px;
+}
+
+div.small-nav a i {
+	font-size: 30px;
+	line-height: 28px;
+}
+
+div.small-nav a p {
+	margin: 0;
+	font-size: 14px;
+}
+
+/*侧边栏*/
